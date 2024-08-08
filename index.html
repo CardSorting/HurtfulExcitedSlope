@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulk Image Renamer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+</head>
+<body>
+    <h1>Bulk Image Renamer</h1>
+    <input type="file" id="fileInput" multiple accept="image/*">
+    <button onclick="renameFiles()">Rename Files and Create Zip</button>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
